@@ -15,7 +15,7 @@ make
 make test
 echo ""
 
-# Every 5 seconds, run the system stats
+# Every 3 seconds, run the system stats
 while true; do
 	./system_stats
 	sleep 3
