@@ -1,9 +1,9 @@
-compile: hello_world.c
-	gcc -c -Wall hello_world.c
-	gcc -Wall -o hello_world hello_world.c
+compile: system_stats.c
+	gcc -c -Wall system_stats.c
+	gcc -Wall -o system_stats system_stats.c
 
-test: hello_world
-	readelf -sW hello_world.o
+test: system_stats
+	readelf -sW system_stats.o
 
 clean:
-	rm hello_world hello_world.o
+	rm system_stats system_stats.o
