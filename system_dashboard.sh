@@ -2,7 +2,7 @@
 
 # Define a cleanup function to run 'make clean' on interrupt
 cleanup() {
-	printf "\nCleaning up..."
+	printf "\nCleaning up...\n"
 	make clean
 	exit
 }
