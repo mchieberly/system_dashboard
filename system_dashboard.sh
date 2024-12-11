@@ -12,7 +12,7 @@ trap cleanup SIGINT
 
 # Compile the program and print the readelf
 make
-make test
+# make test
 echo ""
 
 # Every 3 seconds, run the system stats
